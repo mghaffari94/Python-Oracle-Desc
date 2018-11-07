@@ -6,6 +6,10 @@ Python Oracle Description is a Python Program for alternative Oracle Description
 
 Describe an Oracle Table, View with Python
 
+## Usage with Binary Install
+```sh
+/opt/oradescpy/main { table-Name | view-Name } ~/configFile.ini ~/log/
+```
 
 ## Usage with python Source
 
