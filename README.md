@@ -8,13 +8,13 @@ Describe an Oracle Table, View with Python
 
 ## Usage with Binary Install
 ```sh
-/opt/oradescpy/main { owner-Name }.{ table-Name | view-Name } ~/configFile.ini ~/log/
+/opt/oradescpy/main { schema-Name }.{ table-Name | view-Name } ~/configFile.ini ~/log/
 ```
 
 ## Usage with python Source
 
 ```sh
-python3 main.py { owner-Name }.{ table-Name | view-Name } ~/configFile.ini ~/log/
+python3 main.py { schema-Name }.{ table-Name | view-Name } ~/configFile.ini ~/log/
 ```
 
 ## Contributing
